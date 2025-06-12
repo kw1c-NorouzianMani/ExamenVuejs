@@ -1,35 +1,35 @@
-#GamePlanet – Examenproject Frontend Developer
+# gameplanet
 
-Welkom bij mijn oefenexamenproject voor het vak **Frontend Development**.  
-Deze website is gebouwd met **Vue.js 3**, **Vite**, **Bootstrap** en **LESS**.  
+This template should help get you started developing with Vue 3 in Vite.
 
----
+## Recommended IDE Setup
 
-#Instructie: Hoe open je deze website?
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-Volg onderstaande stappen om het project lokaal te openen en te bekijken:
+## Customize configuration
 
-1. Download of clone het project naar je computer.
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-2. Open de map in een code-editor zoals **Visual Studio Code**.
+## Project Setup
 
-3. Open de **terminal** in de hoofdmap van het project (waar `package.json` staat).
+```sh
+npm install
+```
 
-4. Ga naar de juiste projectsubmap, bijvoorbeeld:
-   ```bash
-   cd gameplanet
-   
-5. Installeer de benodigde pakketten (indien nog niet gedaan):
-    ```bash
-    npm install
-    
-6. Start het project met:
-    ```bash
-    npm run dev
-    
-7. Als alles goed werkt, zie je iets zoals:
+### Compile and Hot-Reload for Development
 
-Local: http://localhost:5173/
+```sh
+npm run dev
+```
 
-LET OP! "Houd Ctrl ingedrukt en klik met je muis op de link (bijvoorbeeld http://localhost:5173/)
-Je browser opent dan de website en je kunt hem live bekijken."
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
