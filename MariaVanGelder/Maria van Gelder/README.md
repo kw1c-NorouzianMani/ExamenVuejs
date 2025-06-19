@@ -1,35 +1,35 @@
-# Maria van Gelder
+# Maria van Gelder - Vue.js Examenproject
 
-This template should help get you started developing with Vue 3 in Vite.
+Dit is mijn frontend examenproject, gebouwd met Vue 3, Vite en LESS. In dit project worden kunstwerken getoond uit een extern JavaScript-bestand. De website bevat meerdere pagina's, een werkende navigatiebalk en een responsieve opmaak.
 
-## Recommended IDE Setup
+## Inhoud van dit project
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue Router met meerdere pagina’s (Home, Contact, Kunstwerken, enz.)
+- Dynamische data: kunstwerken uit `kunstwerken.js`
+- Afbeeldingen van kunstwerken worden correct weergegeven
+- LESS-stylesheets voor opmaak en media queries
+- Navigatiebalk met aangepaste kleuren
+- Footer altijd onderaan de pagina
+- Branch-structuur op GitHub voor versiebeheer
 
-## Customize configuration
+## Benodigde software
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Node.js](https://nodejs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Volar (VS Code extensie)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
-## Project Setup
+## Project installeren en starten
 
-```sh
+1. Open Visual Studio Code  
+2. Open de map van dit project (`Maria van Gelder`)  
+3. Open een terminal en voer de volgende commando's uit:
+
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
 
-### Compile and Minify for Production
+'4. Je ziet een link zoals:
 
-```sh
-npm run build
-```
+http://localhost:5173
 
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+5. Houd Ctrl ingedrukt en klik op de link om de site te openen
