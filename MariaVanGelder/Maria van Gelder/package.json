@@ -1,5 +1,5 @@
 {
-  "name": "gameplanet",
+  "name": "maria-van-gelder",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -13,7 +13,6 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "bootstrap": "^5.3.7",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
